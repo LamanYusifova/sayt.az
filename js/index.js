@@ -89,6 +89,23 @@ function btndeyish(selected){
                 clickable: true,
             },
         });
+
+        let swiper2 = new Swiper(".slider2", {
+            loop: true,
+            // slidesPerView: 2,
+            navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+            },
+        });
     
 
 function calculator(){
